@@ -77,6 +77,7 @@ server {
 
 **Enable the Configuration File**: After creating the configuration file, you need to enable it by creating a symbolic link in the /etc/nginx/sites-enabled/ directory.
 <blockquote style="background-color: #111111; color: #e0a82f; border-left: 10px solid #000000; padding: 0.5em 1em;">
+  
 sudo ln -s /etc/nginx/sites-available/example.conf /etc/nginx/sites-enabled/
 </blockquote>
 <br>
